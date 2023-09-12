@@ -1,0 +1,15 @@
+[
+        {
+    "Nome_livro":"A revolta dos bichos",
+    "ano": 2000,
+    "resumo":"Um monte de bicho loco",
+    "editora": "abril"
+
+    },
+    {
+    "Nome_livro":"Harry Potter",
+    "ano": 2000,
+    "resumo":"Adolescente na puberdade que acha que é bruxin",
+    "editora": "abril"
+    }
+]
