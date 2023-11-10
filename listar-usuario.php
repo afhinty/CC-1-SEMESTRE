@@ -22,9 +22,9 @@
             print "<td>" . $row->email . "</td>";
             print "<td>" . $row->data_nasc . "</td>";
             print "<td>
-                    <button class= 'btn btn-success'>Editar</button>
-                    <button class= 'btn btn-danger'>Excluir</button>
-                   </td>";
+            <a href='?page=editar&id=" . $row->id . "' class='btn btn-success'>Editar</a>
+            <a href='excluir.php?id=" . $row->id . "' class='btn btn-danger'>Excluir</a>
+                   </td>";    
             print "</tr>";
         }
         print "</table>";
